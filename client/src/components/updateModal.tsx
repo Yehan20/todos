@@ -34,7 +34,7 @@ const UpdateModal:React.FC<UpdateModalType> = ({updateModalShow,updateId,setUpda
        setUpdateId(0);
     }
 
-    const updatePerson = async ()=>{
+    const updateTodo = async ()=>{
         try{
             const {data} = await Axios.put('http://localhost:5000/todos/update',
             {  name:updateName,
@@ -79,7 +79,7 @@ const UpdateModal:React.FC<UpdateModalType> = ({updateModalShow,updateId,setUpda
       <Button  variant="secondary" onClick={handleClose}>
         Close
       </Button>
-      <Button variant="primary" onClick={updatePerson}>
+      <Button variant="primary" onClick={updateTodo}>
         Save Changes
       </Button>
     </Modal.Footer>
