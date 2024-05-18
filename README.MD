@@ -10,7 +10,7 @@ Download Git if want to clone the repo
 # Clone this repository
 $ git clone https://github.com/Yehan20/todos
 # Go into the repository
-$ cd People-Curd
+$ cd Todo
 
 # Remove current origin repository
 $ git remote remove origin
