@@ -8,8 +8,7 @@ Download Git if want to clone the repo
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/Yehan20/People-Curd
-
+$ git clone https://github.com/Yehan20/todos
 # Go into the repository
 $ cd People-Curd
 
